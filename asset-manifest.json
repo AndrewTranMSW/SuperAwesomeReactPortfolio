@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SuperAwesomeReactPortfolio/static/css/main.94b9ef53.css",
+    "main.js": "/SuperAwesomeReactPortfolio/static/js/main.f2ea502d.js",
+    "static/media/profilePic.jpg": "/SuperAwesomeReactPortfolio/static/media/profilePic.cdaceddd7acb7ebb7ddd.jpg",
+    "index.html": "/SuperAwesomeReactPortfolio/index.html",
+    "main.94b9ef53.css.map": "/SuperAwesomeReactPortfolio/static/css/main.94b9ef53.css.map",
+    "main.f2ea502d.js.map": "/SuperAwesomeReactPortfolio/static/js/main.f2ea502d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94b9ef53.css",
+    "static/js/main.f2ea502d.js"
+  ]
+}
