@@ -1,8 +1,15 @@
 import React from "react";
 import "../../styles/Resume.css";
 import { Card, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 function Resume() {
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `newPath`; 
+    navigate(path);
+  }
+  
   return (
     <div>
       <h1>Resume</h1>
@@ -14,7 +21,7 @@ function Resume() {
       <Card.Text>
         Please click the button below to download my resume.
       </Card.Text>
-      <Button variant="primary"><a href="www.google.com">Click Here!</a></Button>
+      <Button variant="primary">Click Here!</Button>
     </Card.Body>
   </Card>
   </div>
