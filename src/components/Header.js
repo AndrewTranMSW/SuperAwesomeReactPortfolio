@@ -4,10 +4,15 @@ import Navigation from "./Navigation";
 
 function Header() {
   return (
-    <div class="header">
-      <h1>Andrew Tran</h1>
-      <Navigation />
-    </div>
+    <section className="bg-dark">
+      <div className="container">
+        <div className="d-flex justify-content-around">
+          <div class="header">
+            <Navigation />
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

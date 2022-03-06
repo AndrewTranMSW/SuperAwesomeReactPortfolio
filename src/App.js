@@ -11,6 +11,7 @@ import Resume from "./components/pages/Resume";
 function App() {
   return (
     <div className="App">
+      <h1 className="h1header d-flex justify-content-center">Andrew Tran</h1>
       <BrowserRouter>
         <Header />
         <Routes>

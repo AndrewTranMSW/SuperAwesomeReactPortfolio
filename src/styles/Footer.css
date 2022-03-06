@@ -57,22 +57,9 @@ textarea {
 }
 
 .rounded-social-buttons .fa-twitter,
-.fa-facebook-f,
 .fa-linkedin,
-.fa-youtube,
 .fa-linkedin {
   font-size: 25px;
-}
-
-.rounded-social-buttons .social-button.facebook {
-  background: #3b5998;
-}
-
-.rounded-social-buttons .social-button.facebook:hover,
-.rounded-social-buttons .social-button.facebook:focus {
-  color: #3b5998;
-  background: #fefefe;
-  border-color: #3b5998;
 }
 
 .rounded-social-buttons .social-button.twitter {
@@ -97,24 +84,13 @@ textarea {
   border-color: #007bb5;
 }
 
-.rounded-social-buttons .social-button.youtube {
-  background: #bb0000;
-}
-
-.rounded-social-buttons .social-button.youtube:hover,
-.rounded-social-buttons .social-button.youtube:focus {
-  color: #bb0000;
-  background: #fefefe;
-  border-color: #bb0000;
-}
-
 .rounded-social-buttons .social-button.linkedin {
   background: #125688;
 }
 
-.rounded-social-buttons .social-button.linkedin:hover,
+/* .rounded-social-buttons .social-button.linkedin:hover,
 .rounded-social-buttons .social-button.linkedin:focus {
   color: #125688;
   background: #fefefe;
   border-color: #125688;
-}
+} */
