@@ -1,21 +1,16 @@
 import React from "react";
 import "../../styles/Resume.css";
-<<<<<<< HEAD
 import Pdf from "../../assets/Resume.pdf";
-=======
-import { Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
->>>>>>> 80519b705bd9329d2705c803368cc5c81af903ef
 
 function Resume() {
-  let navigate = useNavigate(); 
-  const routeChange = () =>{ 
-    let path = `newPath`; 
+  let navigate = useNavigate();
+  const routeChange = () => {
+    let path = `newPath`;
     navigate(path);
-  }
-  
+  };
+
   return (
-<<<<<<< HEAD
     <section className="bg-dark">
       <div className="container">
         <div className="row">
@@ -60,22 +55,6 @@ function Resume() {
         </div>
       </div>
     </section>
-=======
-    <div>
-      <h1>Resume</h1>
-
-    <Card style={{ width: '18rem' }}>
-    {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-    <Card.Body>
-      <Card.Title>Resume</Card.Title>
-      <Card.Text>
-        Please click the button below to download my resume.
-      </Card.Text>
-      <Button variant="primary">Click Here!</Button>
-    </Card.Body>
-  </Card>
-  </div>
->>>>>>> 80519b705bd9329d2705c803368cc5c81af903ef
   );
 }
 
