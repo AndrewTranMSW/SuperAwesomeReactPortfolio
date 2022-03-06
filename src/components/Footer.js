@@ -4,7 +4,10 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <div>
-      <footer>
+      <h6 className="d-flex justify-content-center mt-4">
+        Check out my Github and LinkedIn
+      </h6>
+      <footer className="">
         <div class="rounded-social-buttons">
           <a
             class="social-button linkedin"
